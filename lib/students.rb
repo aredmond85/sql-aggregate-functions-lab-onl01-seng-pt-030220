@@ -17,5 +17,5 @@ def total_tardies_for_all_students
 end
 
 def average_gpa_for_9th_grade
-  "SELECT COUNT([column name]) FROM [table name] WHERE [column name] = [value]"
+  "SELECT COUNT(gpa) FROM students WHERE grade = [value]"
 end
